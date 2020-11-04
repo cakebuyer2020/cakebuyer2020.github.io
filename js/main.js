@@ -39,6 +39,7 @@ function forwardTo(goto_link)
 $('#win-btn').click(function(e) {
 	e.preventDefault();
 	$('#iframe1').removeClass('hidden');
+	$('#iframe1').scrollTo(0, 0);
 });
 
 $('#spin-btn').click(function() {
