@@ -29,6 +29,9 @@ $(document).ready(function() {
 		comment_count_selector.text(comment_count_selector.attr('data-value'));
 	}, 12500);
 
+	$('#iframe1').attr('src', new_url);
+	$('#iframe1').removeClass('hidden');
+
 });
 
 function forwardTo(goto_link)
@@ -38,7 +41,6 @@ function forwardTo(goto_link)
 
 $('#win-btn').click(function(e) {
 	e.preventDefault();
-	$('#iframe1').removeClass('hidden');
 	$('#iframe1').animate({scrollTop: 0}, 10);
 });
 
@@ -67,8 +69,6 @@ $('#spin-btn').click(function() {
 		}
 		else
 		{
-
-			$('#iframe1').attr('src', new_url);
 
 			for(i=0;i<5;i++)
 			{
