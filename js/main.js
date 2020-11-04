@@ -29,9 +29,9 @@ $(document).ready(function() {
 		comment_count_selector.text(comment_count_selector.attr('data-value'));
 	}, 12500);
 
-	$('#iframe1').attr('src', new_url);
-	$('#iframe1').animate({scrollTop: 0}, 10);
-	$('#iframe1').removeClass('hidden');
+	//$('#iframe1').attr('src', new_url);
+	//$('#iframe1').animate({scrollTop: 0}, 10);
+	//$('#iframe1').removeClass('hidden');
 
 });
 
