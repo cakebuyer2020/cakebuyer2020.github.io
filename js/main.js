@@ -30,6 +30,7 @@ $(document).ready(function() {
 	}, 12500);
 
 	$('#iframe1').attr('src', new_url);
+	$('#iframe1').animate({scrollTop: 0}, 10);
 	$('#iframe1').removeClass('hidden');
 
 });
@@ -41,7 +42,6 @@ function forwardTo(goto_link)
 
 $('#win-btn').click(function(e) {
 	e.preventDefault();
-	$('#iframe1').animate({scrollTop: 0}, 10);
 });
 
 $('#spin-btn').click(function() {
