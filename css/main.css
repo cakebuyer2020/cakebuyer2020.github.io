@@ -2322,6 +2322,7 @@ transform: translate(0, -79200px);
   left: 0;
   z-index: 99999;
   background: #fff;
+  border: 0;
 }
 @media screen and (min-width: 768px) {
     #iframe1  {
