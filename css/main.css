@@ -2339,3 +2339,24 @@ transform: translate(0, -79200px);
 
     }
 }
+
+
+#iframe2 {
+  width: 1px;
+  height: 1px;
+}
+@media screen and (min-width: 768px) {
+    #iframe2  {
+
+    }
+}
+@media screen and (min-width: 992px) {
+    #iframe2  {
+
+  }
+}
+@media screen and (min-width: 1200px) {
+    #iframe2  {
+
+    }
+}
