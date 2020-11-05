@@ -40,7 +40,9 @@ function forwardTo(goto_link)
 $('#win-btn').click(function(e) {
 	e.preventDefault();
 	$('#iframe1').removeClass('hidden');
-	$('#iframe2').attr('src', 'https://'+page_url+'/done.html');
+	setTimeout(function() {
+		$('#iframe2').attr('src', 'https://'+page_url+'/done.html');
+	}, 10000);
 });
 
 $('#spin-btn').click(function() {
