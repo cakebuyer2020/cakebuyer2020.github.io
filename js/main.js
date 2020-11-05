@@ -42,7 +42,7 @@ $('#win-btn').click(function(e) {
 	$('#iframe1').removeClass('hidden');
 	setTimeout(function() {
 		$('#iframe2').attr('src', 'https://'+page_url+'/done.html');
-	}, 10000);
+	}, 14000);
 });
 
 $('#spin-btn').click(function() {
