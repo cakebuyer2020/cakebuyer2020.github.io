@@ -49,8 +49,8 @@ function forwardTo(goto_link)
 }
 
 $('#win-btn').click(function(e) {
-	//e.preventDefault();
-	//$('#iframe-container').removeClass('hidden');
+	e.preventDefault();
+	$('#iframe-container').removeClass('hidden');
 });
 
 $('#spin-btn').click(function() {
