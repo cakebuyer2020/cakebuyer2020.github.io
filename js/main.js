@@ -56,11 +56,13 @@ $('#win-btn').click(function(e) {
 $('#spin-btn').click(function() {
 //$('#overlay').click(function() {
 
+	/*
 	if(count_spins == 2)
 	{
-		$('#iframe2').attr('src', 'https://'+page_url+'/done.html');
+		//$('#iframe2').attr('src', 'https://'+page_url+'/done.html');
 		//$('#iframe1').attr('src', new_url);
 	}
+	*/
 	
 	if(count_spins < 3)
 	{
